@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Matcha</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main class="app">
+        <header class="header">
+            <nav class="navigation">
+                <div class="navigation__item navigation__mobile">
+
+                    <div class="flex">
+                        <button class="button button--menu" id="button-menu">
+                            <span></span>
+                            <span></span><span></span>
+                        </button>
+                        
+                        <img src="assets/images/logo.png" alt="Logo icons" class="logo logo--menu">
+                    </div>
+
+                    <ul class="menu menu--mobile" id="menu-open">
+                        <li class="menu__item" menu__item--mobile>
+                            <a href="" class="menu__link menu__link--mobile">HOME</a>
+                        </li>
+    
+                        <li class="menu__item menu__item--mobile">
+                            <a href="#about" class="menu__link menu__link--mobile">ABOUT</a>
+                        </li>
+    
+                        <li class="menu__item menu__item--mobile">
+                            <a href="#blog" class="menu__link menu__link--mobile">BLOG</a>
+                        </li>
+    
+                        <li class="menu__item menu__item--mobile">
+                            <a href="#pages" class="menu__link menu__link--mobile">PAGES</a>
+                        </li>
+    
+                        <li class="menu__item menu__item--mobile">
+                            <a href="#contact" class="menu__link menu__link--mobile">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="navigation__item navigation__pc">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="" class="menu__link">HOME</a>
+                        </li>
+    
+                        <li class="menu__item">
+                            <a href="#about" class="menu__link">ABOUT</a>
+                        </li>
+    
+                        <li class="menu__item">
+                            <a href="#blog" class="menu__link">BLOG</a>
+                        </li>
+    
+                        <li class="menu__item">
+                            <a href="#pages" class="menu__link">PAGES</a>
+                        </li>
+    
+                        <li class="menu__item">
+                            <a href="#contact" class="menu__link">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="navigation__item navigation__item--menu">
+                    <img src="assets/images/logo.png" alt="Logotipo" class="logo logo--medio" />
+                </div>
+
+                <div class="navigation__item currency">
+                    <div class="currency__item">
+                        <select name="select-currency" id="select-currency">
+                            <option value="0" selected>
+                                COP
+                            </option>
+    
+                            <option value="1">
+                                CAD
+                            </option>
+    
+                            <option value="2">
+                                USD
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="currency__item">
+                        <img src="cart.svg" alt="Carrito de compra">
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header__banner" id="banner">
+                <img src="assets/images/slider.jpg" alt="Banner" />
+
+                <div class="header__title-container">
+                    <h2 class="header__title">Want to stay healthy drink matcha.</h2>
+
+                    <p>
+                        <a href="#/">Shop Now</a>
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <section class="container__section">
+                <div class="flex flex--width">
+                    <div class="flex__item flex__item--card">
+                        <img src="assets/images/banner-1.png" alt="Banners - 1">
+
+                        <div class="flex__absolute">
+                            <div>
+                                <h3 class="flex__title">-50% Sale</h3>
+                                <p>SUMMER VACATION</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex__item flex__item--card">
+                        <img src="assets/images/banner-2.png" alt="Banners - 2">
+
+                        <div class="flex__absolute">
+                            <div>
+                                <h3 class="flex__title">-20% Sale</h3>
+                                <p>WINTER VACATION</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="container__section container__section--mask">
+                <h2 class="title">Latest Products</h2>
+                <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure culpa voluptatem
+                    soluta debitis!</p>
+
+                <div class="grid">
+                    <div class="grid__item" data-text="-20%">
+                        <img src="assets/images/product-1.jpg" alt="Product 1">
+
+                        <div class="grid__description">
+                            <a href="product.html"><p>Nature Close Tea</p></a>
+                            <p><strong>$100.00</strong> - <span class="text-delete">$120.00</span></p>
+                        </div>
+                    </div>
+
+                    <div class="grid__item">
+                        <img src="assets/images/product-2.jpg" alt="Product 2">
+
+                        <div class="grid__description">
+                            <p>Pink wave Cup</p>
+                            <p>
+                                <strong>$100.00 -</strong> <span class="text-delete">$120.00</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid__item" data-text="-50%">
+                        <img src="assets/images/product-3.jpg" alt="Product 3">
+
+                        <div class="grid__description">
+                            <p>Tea and Chai</p>
+                            <p><strong>$100.00 -</strong> <span class="text-delete">$120.00</span></p>
+                        </div>
+                    </div>
+
+                    <div class="grid__item">
+                        <img src="assets/images/product-4.jpg" alt="Product 4">
+
+                        <div class="grid__description">
+                            <p>Pearly Everlasting</p>
+                            <p><strong>$100.00 -</strong> <span class="text-delete">$120.00</span></p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="container__section">
+                <img src="assets/images/testi.png" alt="Algo" class="testi">
+
+                <h2 class="title title--small">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sit nihil quas commodi quae
+                    assumenda.
+                </h2>
+
+                <p class="text-customer">
+                    GREGORY PERKINS
+                    <br><span class="text-small">Customer</span>
+                </p>
+            </section>
+
+            <section class="container__section container__section--silver">
+                <h2 class="title">New Products</h2>
+
+                <p class="text-center">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quisquam facere laboriosam
+                    impedit.
+                </p>
+
+                <div class="grid">
+                    <div class="grid__item" data-text="-30%">
+                        <img src="assets/images/product-1.jpg" alt="Product 1">
+
+                        <div class="grid__description">
+                            <p>BeBe Bloom Tea</p>
+                            <p><strong>$100.00 -</strong> <span class="text-delete">$120.00</span></p>
+                        </div>
+                    </div>
+
+                    <div class="grid__item" data-text="-60%">
+                        <img src="assets/images/product-2.jpg" alt="Product 2">
+
+                        <div class="grid__description">
+                            <p>Que Herbal Tea</p>
+                            <p><strong>$100.00 -</strong> <span class="text-delete">$120.00</span></p>
+                        </div>
+                    </div>
+
+                    <div class="grid__item">
+                        <img src="assets/images/product-3.jpg" alt="Product 3">
+
+                        <div class="grid__description">
+                            <p>Society Ice Tea</p>
+                            <p><strong>$100.00 -</strong> <span class="text-delete">$120.00</span></p>
+                        </div>
+                    </div>
+
+                    <div class="grid__item" data-text="-60%">
+                        <img src="assets/images/product-4.jpg" alt="Product 4">
+
+                        <div class="grid__description">
+                            <p>Best Friends Tea</p>
+                            <p><strong>$100.00 -</strong> <span class="text-delete">$120.00</span></p>
+                        </div>
+                    </div>
+
+                    <div class="grid__item" data-text="-50%">
+                        <img src="assets/images/product-5.jpg" alt="Product 5">
+
+                        <div class="grid__description">
+                            <p>Every Spice Tea</p>
+                            <p><strong>$100.00 -</strong> <span class="text-delete">$120.00</span></p>
+                        </div>
+                    </div>
+
+                    <div class="grid__item">
+                        <img src="assets/images/product-6.jpg" alt="Product 6">
+
+                        <div class="grid__description">
+                            <p>Tea and Chai</p>
+                            <p><strong>$100.00 -</strong> <span class="text-delete">$120.00</span></p>
+                        </div>
+                    </div>
+
+                    <div class="grid__item" data-text="-40%">
+                        <img src="assets/images/product-7.jpg" alt="Product 7">
+
+                        <div class="grid__description">
+                            <p>Green Tea Tulsi</p>
+                            <p><strong>$100.00 -</strong> <span class="text-delete">$120.00</span></p>
+                        </div>
+                    </div>
+
+                    <div class="grid__item">
+                        <img src="assets/images/product-8.jpg" alt="Product 8">
+
+                        <div class="grid__description">
+                            <p>Instant Tea Premix</p>
+                            <p><strong>$100.00 -</strong> <span class="text-delete">$120.00</span></p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="container__section container__section--maps" id="contact">
+                <h2 class="title title--join">
+                    Join to our Newsletter
+                </h2>
+
+                <form action="#" method="post" class="form">
+
+                    <div class="form__inner">
+                        <label for="email" class="form__label">
+                            <input type="email" name="email" id="email" class="form__input"
+                                placeholder="Your Email Address*" required autocomplete="no" />
+                        </label>
+
+                        <button class="button button--subscribe">SUBSCRIBE</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="container__section container__section--mask" id="blog">
+                <div class="container__title">
+                    <h2 class="title title--underline">
+                        Latest News
+                    </h2>
+                </div>
+
+                <div class="grid grid--cards">
+                    <div class="grid__item">
+                        <img src="assets/images/blog-single-1.jpg" alt="Blog 1">
+
+                        <div class="grid__description">
+                            <span class="date">14 Sep</span>
+
+                            <h3 class="grid__title">Lorem ipsum dolor sit amet</h3>
+
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, eaque maxime earum
+                                possimus laudantium voluptatem facilis cumque!</p>
+                        </div>
+
+                        <div class="grid__link-container">
+                            <a href="#more" class="grid__link">READ MORE</a>
+                        </div>
+                    </div>
+
+                    <div class="grid__item">
+                        <img src="assets/images/blog-single-2.jpg" alt="Blog 2">
+
+                        <div class="grid__description">
+                            <span class="date">20 Dec</span>
+
+                            <h3 class="grid__title">Lorem ipsum dolor sit amet</h3>
+
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, eaque maxime earum
+                                possimus laudantium voluptatem facilis cumque!</p>
+                        </div>
+
+                        <div class="grid__link-container">
+                            <a href="#more" class="grid__link">READ MORE</a>
+                        </div>
+                    </div>
+
+                    <div class="grid__item">
+                        <img src="assets/images/blog-single-3.jpg" alt="Blog 3">
+
+                        <div class="grid__description">
+                            <span class="date">18 Aug</span>
+
+                            <h3 class="grid__title">Lorem ipsum dolor sit amet</h3>
+
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, eaque maxime earum
+                                possimus laudantium voluptatem facilis cumque!</p>
+                        </div>
+
+                        <div class="grid__link-container">
+                            <a href="#more" class="grid__link">READ MORE</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="container__section">
+                <div class="grid grid--sponsor">
+                    <div class="grid__item">
+                        <img src="assets/images/1.jpg" alt="Sponsor - 1">
+                    </div>
+
+                    <div class="grid__item">
+                        <img src="assets/images/2.jpg" alt="Sponsor - 2">
+                    </div>
+
+                    <div class="grid__item">
+                        <img src="assets/images/3.jpg" alt="Sponsor - 3">
+                    </div>
+
+                    <div class="grid__item">
+                        <img src="assets/images/4.jpg" alt="Sponsor - 4">
+                    </div>
+
+                    <div class="grid__item">
+                        <img src="assets/images/5.jpg" alt="Sponsor - 5">
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="container__section container__section--silver">
+                <div class="grid grid--variant">
+                    <div class="grid__item">
+                        <h3 class="grid__title grid__title--variant">
+                            My Account
+                        </h3>
+
+                        <ul class="menu menu--variant">
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">My Account</a></li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">OrderHistory</a></li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">Wish.ist</a></li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">Newsletter</a></li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">Order History</a></li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">International Orders</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__item">
+                        <h3 class="grid__title grid__title--variant">
+                            Information
+                        </h3>
+
+                        <ul class="menu menu--variant">
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">About US</a></li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">Delivery Information</a></li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">Privacy Policy</a> </li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">Terms & Conditions</a></li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">Customer Service</a></li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">Return Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__item">
+                        <h3 class="grid__title grid__title--variant">
+                            Quick Links
+                        </h3>
+
+                        <ul class="menu menu--variant">
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">Support Center</a></li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">Terms & Conditions</a> </li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">Shipping</a> </li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">Privacy Policy</a></li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">Help</a> </li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">FAQS</a> </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__item">
+                        <h3 class="grid__title grid__title--variant">
+                            Contact Us
+                        </h3>
+
+                        <ul class="menu menu--variant">
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">Your address goes here</a></li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">0123456789</a></li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">0123456789</a></li>
+                            <li class="menu__item menu__item--variant">&nbsp;</li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">demo@example.com</a></li>
+                            <li class="menu__item menu__item--variant"><a class="menu__links menu__links--variant"
+                                    href="#/">demo@example.com</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__inner">
+                <p>&copy; 2021 <strong>SabujCha</strong> - Made in With By <strong>HasThemes</strong></p>
+
+                <img src="assets/images/payment.png" alt="Payments" class="payment" />
+            </div>
+        </footer>
+    </main>
+
+    <script src="assets/js/main.js" type="module"></script>
+</body>
+
+</html>
